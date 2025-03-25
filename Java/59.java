@@ -19,7 +19,6 @@ class Solution {
             for (int i=maxR-1;i>currI;i--) {
                 ans[i][currJ] = curr++;
             }
-
             maxR--;
             maxC--;
             currI++;
